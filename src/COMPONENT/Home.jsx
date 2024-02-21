@@ -27,7 +27,7 @@ function Home() {
     <Row>
       <Col>
         <Form.Group className='p-4'>
-          <Form.Control type="text" placeholder="Search A place..." onChange={(e)=>setCity(e.target.value)} value={city} onKeyDown={search}/>
+          <Form.Control type="text" placeholder="Search a place..." onChange={(e)=>setCity(e.target.value)} value={city} onKeyDown={search}/>
         </Form.Group>
       </Col>
     </Row>
